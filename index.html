@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EurOrbit - European Weather Forecast</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>EurOrbit</h1>
+    <h2>European Weather Forecast</h2>
+    <p>Powered by <a href="http://www.7timer.info/" target="_blank">7Timer!</a></p>
+    
+    <select id="citySelect">
+      <option value="">-- select a city --</option>
+      <option value="Berlin, Germany">Berlin, Germany</option>
+      <option value="Helsinki, Finland">Helsinki, Finland</option>
+      <option value="Madrid, Spain">Madrid, Spain</option>
+      <option value="Paris, France">Paris, France</option>
+      <option value="Rome, Italy">Rome, Italy</option>
+      <option value="Amsterdam, Netherlands">Amsterdam, Netherlands</option>
+    </select>
+
+    <div id="forecastContainer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
